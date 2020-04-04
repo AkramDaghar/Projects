@@ -46,8 +46,7 @@ h4 {
 	padding-top: 20px; /* suggestion : change it to margin-left*/
 }
 
-input {
-	display: block;
+input.in {
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
@@ -71,4 +70,14 @@ input:focus {
 
 .role_form:focus {
 	outline:none;
+}
+
+.radio {
+	padding: 10px;
+}
+
+.input-radio {
+	display: inline-block;
+	padding: 20px;
+	margin: 1vw;
 }
